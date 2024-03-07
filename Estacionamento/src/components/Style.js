@@ -8,7 +8,6 @@ export default DefaultStyle = StyleSheet.create(
                 backgroundColor:"#344955",
                 flex: 1,
                 margin:20,
-                borderRadius:9
             },
             Font: {
                 color: "#FFE6E6",
