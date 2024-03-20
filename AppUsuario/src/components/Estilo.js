@@ -4,9 +4,13 @@ import { StyleSheet, Text, SafeAreaView } from "react-native";
 export default Estilo = StyleSheet.create(
     {
         Main: {
-            flex: 1,
+            flexGrow: 1,
             justifyContent: "center",
-            backgroundColor: "#00224D"
+            paddingTop: 40,
+        },
+        Img:{
+            // flex: 1,
+            alignItems: "center"
         },
         Input: {
             alignItems: "center",
@@ -14,14 +18,22 @@ export default Estilo = StyleSheet.create(
         },
         Text: {
             alignSelf: "flex-end",
-            color: "#FFF"
+            color: "#FFECD6"
+        },
+        Titulo:{
+            fontSize: 50,
+            color: "#FFECD6",
+            textAlign: "center",
         },
         Font: {
             fontSize: 15,
             borderBottomWidth: 2,
-            borderBottomColor: "#FF204E",
+            borderBottomColor: "#FFECD6",
+            color: "#FFECD6",
             margin: 20,
-            width: 300
+            width: 300,
+            backgroundColor: "trasnparent",
+            color:"#FFECD6"
         },
         Img: {
             alignSelf: "center",
@@ -29,6 +41,9 @@ export default Estilo = StyleSheet.create(
         Button: {
             margin: 20,
             flexGrow:1,
+        },
+        ButtonTag: {
+            color: "#483F68"
         }
     }
 )
