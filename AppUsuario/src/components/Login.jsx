@@ -21,8 +21,8 @@ export default (props) => {
     }
 
     return (
-        <SafeAreaView>
-                <Text style={Estilo.Text}>Não tem usuário? Clique aqui</Text>
+        <SafeAreaView style={{paddingTop: 60}}>
+                {/* <Text style={Estilo.Text}>Não tem usuário? Clique aqui</Text> */}
                 <Text style={Estilo.Titulo}>Clean Food</Text>
                 <Image source={require('../images/Prato1.png')} style={Estilo.Img} />
                 <Text style={Estilo.Titulo}>Login</Text>

@@ -6,11 +6,10 @@ export default Estilo = StyleSheet.create(
         Main: {
             flexGrow: 1,
             justifyContent: "center",
-            paddingTop: 40,
         },
         Img:{
             // flex: 1,
-            alignItems: "center"
+            alignItems: "center",
         },
         Input: {
             alignItems: "center",
