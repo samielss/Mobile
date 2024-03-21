@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Image, StyleSheet, Text, SafeAreaView, View, ImageBackground } from "react-native";
 import { TextInput, Button } from "react-native-paper"
-import Estilo from "./Estilo";
+import Estilo from "./EstiloLogin";
 
 import Icon from 'react-native-vector-icons/FontAwesome'
 const myIcon = <Icon name="rocket" size={30} color="#900" />
